@@ -1,0 +1,18 @@
+title: On Tap
+
+fields:
+
+	ontap:
+		display: Beer List
+		type: grid
+		starting_rows: 1
+		min_rows: 1
+		fields:
+			name:
+				display: Beer Name
+				type: text
+				width: 50%
+			on_tap:
+				display: On Tap
+				type: checkbox
+				width: 50%
