@@ -9,13 +9,6 @@
 			{{ content|widont }}
 			
 			<hr>
-
-			{{ ontap }}
-				<p>{{ name }}{{ if on_tap }} - On Tap BITCH!{{ endif }}</p>
-				<hr>
-			{{ /ontap }}
-
-			<hr>
 			
 			<ol class="tree roman">
 				{{ nav max_depth="5" from="{current_url}" folders_only="false" }}
