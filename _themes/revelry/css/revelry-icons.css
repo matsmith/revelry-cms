@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'revelry-ornamental';
+  src:url('../fonts/revelry-ornamental.eot?bwncer');
+  src:url('../fonts/revelry-ornamental.eot?#iefixbwncer') format('embedded-opentype'),
+    url('../fonts/revelry-ornamental.woff?bwncer') format('woff'),
+    url('../fonts/revelry-ornamental.ttf?bwncer') format('truetype'),
+    url('../fonts/revelry-ornamental.svg?bwncer#revelry-ornamental') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: 'revelry-ornamental';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-icon="icon-logo"]:before {
+  content: "\e600";
+}
+[data-icon="icon-stars"]:before {
+  content: "\e601";
+}
+[data-icon="icon-hop"]:before {
+  content: "\e602";
+}
+[data-icon="icon-wheat"]:before {
+  content: "\e603";
+}
+[data-icon="icon-horn"]:before {
+  content: "\e604";
+}
+[data-icon="icon-hat"]:before {
+  content: "\e605";
+}
+[data-icon="icon-horse"]:before {
+  content: "\e606";
+}
+[data-icon="icon-pennant"]:before {
+  content: "\e607";
+}
+[data-icon="icon-rflag"]:before {
+  content: "\e608";
+}
+[data-icon="icon-flag"]:before {
+  content: "\e609";
+}
+[data-icon="icon-camera"]:before {
+  content: "\e00f";
+}
+[data-icon="icon-vimeo"]:before {
+  content: "\e041";
+}
+[data-icon="icon-twitter"]:before {
+  content: "\e042";
+}
+[data-icon="icon-facebook"]:before {
+  content: "\e03f";
+}
+[data-icon="icon-linkedin"]:before {
+  content: "\e049";
+}
+[data-icon="icon-googleplus"]:before {
+  content: "\e04a";
+}
+[data-icon="icon-pintrest"]:before {
+  content: "\e046";
+}

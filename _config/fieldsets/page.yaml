@@ -1,18 +1,40 @@
 title: Standard Page
 
 fields:
-  _template:
-    display: Template
-    type: templates
 
-  upload:
-    type: file
-    destination: assets/img/
-    allowed: ['jpg']
+	# navicon:
+	# 	display: Nav Icon
+	# 	required: true
+	# 	default:
+	# 	type: select
+	# 	options:
+	# 		icon-home: Home
+	# 		icon-clock: Clock
+	# 		icon-food: Food
+	# 		icon-share: Social Networking
+	# 		icon-location: Map Marker
+	# 		icon-logo: Logo
+	# 		icon-stars: Logo with Stars
+	# 		icon-hop: Hop
+	# 		icon-wheat: Wheat
+	# 		icon-horn: Horn
+	# 		icon-hat: Hat
+	# 		icon-horse: Horse
+	# 		icon-pennant: Pennant
+	# 		icon-rflag: Flag with R
+	# 		icon-flat: Flag
+	# 		icon-camera: Camera
+	# 		icon-vimeo: Vimeo
+	# 		icon-twitter: Twitter
+	# 		icon-facebook: Facebook
+	# 		icon-linkedin: LinkedIn
+	# 		icon-googleplus: GooglePlus
+	# 		icon-pintrest: Pintrest
 
-  content:
-    display: Page Content
-    required: false
-    default:
-    type: markitup
+
+	content:
+		display: Page Content
+		required: false
+		default:
+		type: markitup
 
