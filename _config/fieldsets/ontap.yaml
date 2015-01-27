@@ -40,8 +40,12 @@ fields:
 			name:
 				display: Beer Name
 				type: text
-				width: 50%
+				width: 40%
+			style:
+				display: Style
+				type: text
+				width: 40%
 			on_tap:
 				display: On Tap
 				type: checkbox
-				width: 50%
+				width: 20%

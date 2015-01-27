@@ -17,103 +17,29 @@
 		{{ theme:css src="skew" tag="true" }}
 
 		<!-- favicon -->
-		<link rel="shortcut icon" type="image/png" href="{{ theme:img src="favicon.png" }}">
+		<link rel="shortcut icon" type="image/ico" href="{{ theme:img src="favicon.ico" }}">
 	</head>
 		<body>
-		<!--<nav>
-			<a href="#home" data-navicon="icon-home">&nbsp;</a>
-			<a href="#beer" data-icon="icon-hop">&nbsp;</a>
-			<a href="#tasting-room" data-navicon="icon-clock">&nbsp;</a>
-			<a href="#map-to-revelry" data-navicon="icon-location">&nbsp;</a>
-			<a href="#food" data-navicon="icon-food">&nbsp;</a>
-			<a href="#share" data-navicon="icon-share">&nbsp;</a>
-		</nav>-->
 
 		<nav>
-			<a href="{{ homepage }}" data-navicon="icon-home">&nbsp;</a>
+			<a href="{{ homepage }}" data-icon="icon-home">&nbsp;</a>
 			{{ nav from="/" include_content="true" }}<a href="{{ url }}" data-icon="{{ navicon }}">&nbsp;</a>{{ /nav }}
 		</nav>
 
 		{{ layout_content }}
 
-		<section class="block background-white" data-anchor="beer">
-				<h2>Our Beer</h2>
-				<p><span class="on-tap"></span> = Currently on tap at Revelry Brewing Co.
-				<ul class="square">
-					<li class="square__item"><span class="on-tap marker">Pass the Lemongrass</span><br /><span class="square__item--style">IPA</span></li>
-					<li class="square__item">American<br /><span class="square__item--style">Farmhouse</span></li>
-					<li class="square__item"><span class="on-tap marker">Not So Crosstown Brown</span><br /><span class="square__item--style">Nut Brown Ale</span></li>
-					<li class="square__item"><span class="on-tap marker">Santas Leftovers</span><br /><span class="square__item--style">Sweet Oatmeal Stout</span></li>
-					<li class="square__item">Love for Locklan<br /><span class="square__item--style">Pale Ale</span></li>
-					<li class="square__item">Poudre Douce<br /><span class="square__item--style">Pumpkin</span></li>
-					<li class="square__item">Poke the Bear<br /><span class="square__item--style">APA</span></li>
-					<li class="square__item"><span class="on-tap marker">Funkmaster Brett</span><br /><span class="square__item--style">IPA</span></li>
-					<li class="square__item">What The Helles<br /><span class="square__item--style">Lager</span></li>
-					<li class="square__item"><span class="on-tap marker">There She Gose' Gin</span></li>
-					<li class="square__item"><span class="on-tap marker">Small Victories</span><br /><span class="square__item--style">Amber</span></li>
-					<li class="square__item"><span class="on-tap marker">Spotting Nessie Scottish</span></li>
-					<li class="square__item">Winter<br /><span class="square__item--style">Wit</span></li>
-					<li class="square__item">32oz Growler Glass<br /><span class="square__item--style">$6</span></li>
-					<li class="square__item">64oz Growler Glass<br /><span class="square__item--style">$8</span></li>
-					<li class="square__item">32oz Growler Fill<br /><span class="square__item--style">$8</span></li>
-					<li class="square__item">64oz Growler Fill<br /><span class="square__item--style">$16</span></li>
-					<li class="square__item">Pint Glasses<br /><span class="square__item--style">$5</span></li>
-					<li class="square__item">1/2 Pints<br /><span class="square__item--style">$3</span></li>
-					<li class="square__item">Pints<br /><span class="square__item--style">$5.50</span></li>
-					<li class="square__item">Shirts, tanks and stickers</li>
-				</ul>
-		</section>
-
-		<section class="block" data-anchor="tasting-room">
-			<div class="block__align-middle">
-				<h2>Tasting Room Hours</h2>
-				<p>Wednesday to Saturday &mdash; 4pm-10pm</p>
-				<p>Sunday &mdash; 12pm-6pm</p>
-				<p>Live music Saturdays, and occasionally Thursdays and Fridays</p>
-				<p>Dog friendly</p>
-			</div>
-		</section>
-
-		<section class="block background-white" data-anchor="map-to-revelry">
-			<div id="map-to-revelry"></div>
-		</section>
-
-		<section class="block background-white" data-anchor="food">
-			<div class="block__align-middle">
-				<h2>Hey, Youuuuu Guuyyys!!!!<br />There's food</h2>
-				<p>
-					Salted Pretzel with cheese and spicy mustard.<br />
-					Turkey and Pimento Waffle Sandwich.<br />
-					Corned Beef Waffle Sandwich with Swiss, Cherry Peppers, and Bistro Sauce.<br />
-					Mary Anne's Monte Cristo with ham, turkey, melted Swiss, and strawberry jam.<br />
-					Ice Cream Waffle Sandwich.
-				</p>
-			</div>
-		</section>
-
-		<section class="block" data-anchor="share">
-			<div class="block__align-middle">
-				<p>
-					<a href="https://twitter.com/revelrybrewing" data-icon="icon-twitter" title="Our twitter page" class="icon"></a>
-					<a href="https://www.facebook.com/revelrybrewingco" data-icon="icon-facebook" title="The revelry facebook page" class="icon"></a>
-					<a href="http://instagram.com/revelrybrewingco" data-icon="icon-camera" title="Out instagram photos" class="icon"></a>
-				</p>
-			</div>
-		</section>
-
 		<footer class="block clearfix">
 			<div class="block__align-middle">
 				<a class="float-left" href="matsmith.github.io">10 Conroy Street</a>
 				<a class="float-right" href="">Charleston, SC 29403</a>
-				<p data-icon="icon-stars" class="icon"></p>
+				<p data-icon="icon-rstars" class="icon"></p>
 			</div>
 		</footer>
 		{{ theme:js src="jquery-1.10.2.min" tag="true" }}
 		{{ theme:js src="jquery.scrollTo-1.4.3.1-min" tag="true" }}
 		{{ theme:js src="jquery.parallax.min" tag="true" }}
 		{{ theme:js src="headroom" tag="true" }}
-		<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm5KxqraJfsvtpsVmjmRBi_2FlZB_4nt0&sensor=false"></script> -->
-		<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9sijHDXIXk6YGzHm5wdax2BcZyoObEK4&sensor=false"></script> -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCSGASlxE9wjxw3ZL10zblJQzVPgv1IaU&sensor=false"></script>
 		{{ theme:js src="script" tag="true" }}
 	</body>
 </html>

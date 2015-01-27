@@ -2,39 +2,48 @@ title: Standard Page
 
 fields:
 
-	# navicon:
-	# 	display: Nav Icon
-	# 	required: true
-	# 	default:
-	# 	type: select
-	# 	options:
-	# 		icon-home: Home
-	# 		icon-clock: Clock
-	# 		icon-food: Food
-	# 		icon-share: Social Networking
-	# 		icon-location: Map Marker
-	# 		icon-logo: Logo
-	# 		icon-stars: Logo with Stars
-	# 		icon-hop: Hop
-	# 		icon-wheat: Wheat
-	# 		icon-horn: Horn
-	# 		icon-hat: Hat
-	# 		icon-horse: Horse
-	# 		icon-pennant: Pennant
-	# 		icon-rflag: Flag with R
-	# 		icon-flat: Flag
-	# 		icon-camera: Camera
-	# 		icon-vimeo: Vimeo
-	# 		icon-twitter: Twitter
-	# 		icon-facebook: Facebook
-	# 		icon-linkedin: LinkedIn
-	# 		icon-googleplus: GooglePlus
-	# 		icon-pintrest: Pintrest
-
+	navicon:
+		display: Nav Icon
+		required: true
+		default:
+		type: select
+		options:
+			icon-home: Home
+			icon-clock: Clock
+			icon-food: Food
+			icon-share: Social Networking
+			icon-location: Map Marker
+			icon-logo: Logo
+			icon-stars: Logo with Stars
+			icon-hop: Hop
+			icon-wheat: Wheat
+			icon-horn: Horn
+			icon-hat: Hat
+			icon-horse: Horse
+			icon-pennant: Pennant
+			icon-rflag: Flag with R
+			icon-flat: Flag
+			icon-camera: Camera
+			icon-vimeo: Vimeo
+			icon-twitter: Twitter
+			icon-facebook: Facebook
+			icon-linkedin: LinkedIn
+			icon-googleplus: GooglePlus
+			icon-pintrest: Pintrest
 
 	content:
 		display: Page Content
 		required: false
 		default:
 		type: markitup
+
+	background:
+		display: Background Color
+		required: true
+		default: background-white
+		type: select
+		options:
+			background-white: White
+			background-black: Black
+
 

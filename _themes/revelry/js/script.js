@@ -82,26 +82,6 @@ $(function() {
 
 	$(window).resize().scroll();
 
-	// // Scroll to next section
-	// $('.control-btn').on('click', function() {
-	// 	$.scrollTo($(this).closest('header, section').next(), {
-	// 		axis : 'y',
-	// 		duration : 500
-	// 	});
-	// 	return false;
-	// });
-
-	// // Scroll to next section
-	// $('nav a').on('click', function(e) {
-	// 	e.preventDefault();
-	// 	var loc = $(this).attr('href').replace('#','');
-	// 	$.scrollTo($('header[data-anchor="'+loc+'"], section[data-anchor="'+loc+'"]'), {
-	// 		axis : 'y',
-	// 		duration : 500
-	// 	});
-	// 	return false;
-	// });
-
 	// HEADROOM
 	var headroomElement = document.querySelector("nav");
 	// construct an instance of Headroom, passing the element
@@ -112,4 +92,4 @@ $(function() {
 	$('html').addClass('loaded');
 });
 
-//google.maps.event.addDomListener(window, 'load', initializeMap);
+google.maps.event.addDomListener(window, 'load', initializeMap);

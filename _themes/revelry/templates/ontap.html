@@ -1,3 +1,9 @@
 <section class="block background-white" data-anchor="beer">
+	<h2>{{ title }}</h2>
 	{{ content }}
+	<ul class="square">
+		{{ ontap }}
+		<li class="square__item">{{ if on_tap }}<span class="on-tap marker">{{ /if }}{{ name }}</span><br /><span class="square__item--style">{{ style }}</span></li>
+		{{ /ontap }}
+	</ul>
 </section>

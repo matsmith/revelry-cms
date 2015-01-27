@@ -2,18 +2,47 @@ title: Gallery
 
 fields:
 
-  gallery:
-    display: Photo Gallery
-    type: grid
-    starting_rows: 1
-    min_rows: 1
-    fields:
-      photo:
-        type: file
-        display: Photo
-        destination: assets/img
-        show_thumbnail: true
-      caption:
-        display: Caption
-        type: text
-        width: 50%
+    navicon:
+        display: Nav Icon
+        required: true
+        default:
+        type: select
+        options:
+            icon-home: Home
+            icon-clock: Clock
+            icon-food: Food
+            icon-share: Social Networking
+            icon-location: Map Marker
+            icon-logo: Logo
+            icon-stars: Logo with Stars
+            icon-hop: Hop
+            icon-wheat: Wheat
+            icon-horn: Horn
+            icon-hat: Hat
+            icon-horse: Horse
+            icon-pennant: Pennant
+            icon-rflag: Flag with R
+            icon-flat: Flag
+            icon-camera: Camera
+            icon-vimeo: Vimeo
+            icon-twitter: Twitter
+            icon-facebook: Facebook
+            icon-linkedin: LinkedIn
+            icon-googleplus: GooglePlus
+            icon-pintrest: Pintrest
+
+    gallery:
+        display: Photo Gallery
+        type: grid
+        starting_rows: 1
+        min_rows: 1
+        fields:
+            photo:
+                type: file
+                display: Photo
+                destination: assets/img
+                show_thumbnail: true
+            caption:
+                display: Caption
+                type: text
+                width: 50%
